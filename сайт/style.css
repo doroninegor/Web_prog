@@ -1,0 +1,51 @@
+/*Каркас сайта*/
+body {padding:0px; margin:0; background:#8B2500; font-size:14px; font-family:Arial, Sans-serif;}
+#basic {width:960px; min-height:950px; margin:0 auto; padding:20px 20px 20px 20px; background:#fff;}
+font: 18px Verdana
+img {border:0;}
+a {color:#8B2500;}
+a:hover {text-decoration:none;}
+font: 18px Verdana
+/*Шапка сайта*/
+li.none-bg {background:none!important;}
+.telefon {float:right;}
+/*Верхнее меню сайта*/
+#top-menu {width:960px; height:74px; }
+.bg-1 {width:950px; height:64px; background:#8B2500 url(images/m1.png) repeat-x; padding:0 0 0 10px;}
+.bg-2 {width:940px; height:8px; background:#0000EE; margin:0 auto;}
+.bg-1 ul {margin:0; padding:0; list-style:none;}
+.bg-1 ul li {float:left; background:url(images/m2.png) no-repeat right center; padding:0 2px 0 0;}
+.bg-1 ul li a {display:block; height:40px; padding:24px 27px 0 27px; color:#0000EE; text-decoration:none; text-transform:uppercase;}
+.bg-1 ul li a:hover {color:#fff; background:#0000EE;}
+.content
+{
+width:700px;
+margin:0 auto;
+padding:20px;
+box-shadow: 0 1px 4px rgba(0, 0, 0, .3), -23px 0 20px -23px rgba(0, 0, 0, .8), 23px 0 20px -23px rgba(0, 0, 0, .8), 0 0 40px rgba(0, 0, 0, .1) inset;
+}
+ 
+.content h2
+{
+font: 30px Verdana, Arial, Helvetica, sans-serif;
+color:#0000EE ;
+text-align:center;
+}
+ 
+.content p
+{
+font: 14px Verdana, Arial, Helvetica, sans-serif;
+color:#8B2500;
+text-indent:20px;
+}
+.center-img {
+  display: block;
+  margin: 0 auto;
+}
+/*Подвал*/
+.myclr {clear:both; float:none; width:100%; height:1px;}
+#podval {border-top:10px solid #8B2500; margin-top:20px;}
+.yellow {width:940px; height:5px; margin:0 auto; background:#0000EE;}
+.p1 {float:left; width:300px; padding:15px 0 0 0;}
+.p2 {float:right; width:200px; text-align:right; padding:15px 20px 0 0;}
+.p3 {float:right; width:30px; padding:15px 0 0 0;}
